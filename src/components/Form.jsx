@@ -3,7 +3,7 @@ import { Label } from "./ui/Label"
 import { Button } from "./ui/Button"
 export const Form = () => {
     return (
-        <div className="">
+        <>
             <div className="mb-3">
                 <Label>Your Name</Label>
                 <Input placeholder="Johnson Doe" />
@@ -17,8 +17,8 @@ export const Form = () => {
                 <Input type="password" placeholder="***************" />
             </div>
             <div className="mb-3">
-                <Button className="bg-black text-white w-full">GET STARTED</Button>
+                <Button className="bg-black text-white w-full hover:bg-gray-800">GET STARTED</Button>
             </div>
-        </div>
+        </>
     )
 }
