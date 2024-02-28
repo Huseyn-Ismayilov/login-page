@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slider {
+    margin: 0 !important;
+    padding-bottom: 40px !important;
+
+}
+.slider .swiper-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: -40px;
+}
+.swiper-pagination-bullet {
+    width: 32px;
+    height: 2px;
+    background-color: #9E9E9E;
+    display: block;
+    transition: .15s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.swiper-pagination-bullet-active {
+    width: 48px;
+    height: 4px;
+    background-color: white;
+}

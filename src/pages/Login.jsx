@@ -1,4 +1,6 @@
 import { Form } from "../components/Form"
+import Slider from "../components/Slider"
+
 // Icons
 import GoogleIcon from '../assets/icons8-google.svg'
 import FacebookIcon from '../assets/icons8-facebook.svg'
@@ -6,12 +8,16 @@ import AppleIcon from '../assets/apple-icon.svg'
 
 import Logo from '../assets/Logo.svg'
 
+
 export default function Login() {
     return (
         <div className="md:flex pt-6 md:p-0">
             <div className="md:w-1/2">
-                <div className="logo mb-6">
-                    <img src={Logo} alt="" />
+                <div className="md:pt-20 mb-11 md:mb-0">
+                    <div className="logo lg:mb-36 mb-8">
+                        <img src={Logo} alt="" />
+                    </div>
+                    <Slider />
                 </div>
             </div>
             <div className="md:w-1/2">

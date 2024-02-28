@@ -1,6 +1,7 @@
-import './style.css'
 import Login from './pages/Login'
 import bgImage from './assets/bg-image.png'
+import './style.css'
+
 
 function App() {
 
